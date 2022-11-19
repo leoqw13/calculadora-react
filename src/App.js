@@ -28,13 +28,13 @@ function App() {
   };
 
   const setAns = () => {
-    if (calc == "") {
+    if (calc === "") {
       return;
     }
     setCalc(calc + result);
   };
   const deleteLast = () => {
-    if (calc == "") {
+    if (calc === "") {
       return;
     }
     const value = calc.slice(0, -1);
